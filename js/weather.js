@@ -3,7 +3,7 @@
 // 3° obter o clima atual da cidade
 
 const APIKey = '8GLre4GS7xEu6zhEKNfLruIAJPwmcCDo'
-const baseUrl = 'http://dataservice.accuweather.com/'
+const baseUrl = 'https://dataservice.accuweather.com/'
 
 const getCityUrl =  cityName => 
 `${baseUrl}locations/v1/cities/search?apikey=${APIKey}&q=${cityName}`
