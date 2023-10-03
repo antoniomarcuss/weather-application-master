@@ -1,7 +1,3 @@
-// 1° obter a chave da API (APIKEY)
-// 2° obter informações da cidade(locations API e fazer request para city search)
-// 3° obter o clima atual da cidade
-
 const APIKey = '8GLre4GS7xEu6zhEKNfLruIAJPwmcCDo'
 const baseUrl = 'https://dataservice.accuweather.com/'
 
